@@ -1,7 +1,7 @@
 body{
     background-color: #f4f4f4;
     color: #555;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height:1.6em;
     margin:0;
@@ -11,11 +11,30 @@ body{
     width:80%;
     margin:auto;
     overflow: hidden;
+    font-weight: 200;
 }
 
 #main-header{
-    background-color:coral;
+    display: flex;
+    overflow: hidden;
     color:#fff;
+}
+
+#main-header .MainText {
+    padding: 0 20%;
+    text-align: end;
+    background-color: black;
+    border: 2px solid black;
+    width: 60%;
+}
+
+#main-header .MainText h1 {
+    font-weight: 100;
+}
+
+#main-header .graphic {
+    background-color: gray;
+    width: 40%;
 }
 
 #navbar{
@@ -49,8 +68,8 @@ body{
     text-align: center;
 }
 
-#showcase hq{
-    color:white;
+#showcase h1{
+    color:black;
     font-size: 50px;
     line-height: 1.6em;
     padding-top: 30px;
