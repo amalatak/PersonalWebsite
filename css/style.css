@@ -21,11 +21,11 @@ body{
 }
 
 #main-header .MainText {
-    padding: 0 20%;
-    text-align: end;
+    padding: 0 10%;
+    text-align: start;
     background-color: black;
     border: 2px solid black;
-    width: 60%;
+    width: 20%;
 }
 
 #main-header .MainText h1 {
@@ -34,31 +34,33 @@ body{
 
 #main-header .graphic {
     background-color: gray;
-    width: 40%;
+    width: 20%;
 }
 
-#navbar{
-    background-color:#333;
+#main-header .navbar {
+    background-color:black;
     color:white;
-
+    width: 50%;
+    border: 2px solid red;
+    font-weight: 100;
 }
 
-#navbar ul{
+#main-header .navbar ul {
     padding:0;
     list-style: none;
-
 }
 
-#navbar li{
+#main-header .navbar li {
     display: inline;
 }
 
-#navbar a{
+#main-header .navbar a {
     color: white;
     text-decoration: none;
     font-size: 18px;
     padding-right:15px;
 }
+
 
 #showcase{
     backgroun-image:url(../images/insertimagehere);
@@ -70,9 +72,10 @@ body{
 
 #showcase h1{
     color:black;
-    font-size: 50px;
+    font-size: 16px;
     line-height: 1.6em;
     padding-top: 30px;
+    font-weight: 100;
 }
 
 #main{
