@@ -6,63 +6,315 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Website</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
-    <header id="main-header">
-        <div class="graphic">
-            <img src="" alt="SomeGraphic">
-        </div>
-        <div class="MainText">
-            <h1>My Website</h1>
-        </div>
-        <div class="navbar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Academics</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        
-    </header>
+    
 
 
-    <section id="showcase">
-        <div class="container">
-            <h1>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, magni.
-            </h1>
+    <div class="showcase">
+        <header id="main-header">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="introduction-container">
+            <div class="introduction">
+                <div class="greeting">
+                    Hi. I'm
+                </div>
+                <div class="myname">
+                    Andrew Malatak
+                </div>
+                <div class="briefDescription">
+                    Aerospace. Software. Automation.
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
 
+    <div class="main-body">
+        <div class="headshot-and-description">
+            <div class="headshot-wrapper">
+                <img class="headshot" src="images/robot_painting_laser.jpg" alt="Paris">
+            </div>
+            <aside id="sidebar">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Asperiores ipsa quisquam accusamus veritatis. Voluptas, 
+                    eligendi! Fuga reprehenderit quis assumenda architecto, 
+                    molestiae minima atque asperiores quos libero esse neque 
+                    vero magni.
+                </p>
+            </aside>
+        </div>
 
-    <div class="container">
-        <section id="main">
-            <h1>Welcome</h1>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Autem sequi at vitae aut sint, ut doloribus. Fuga corporis 
-                beatae enim iure quod, deleniti dicta adipisci, deserunt 
-                cupiditate qui laudantium nostrum.
-            </p>
+        <div class="LinkContainer">
+            <div class="PageLinks">
+                <a href="#" class="img academics">
+                    <div>
+                        Education
+                    </div>
+                </a>
+                <a href="professional.html" class="img work">
+                    <div>
+                        Work
+                    </div>
+                </a>
+                <a href="about.html" class="img about">
+                    <div>
+                        About
+                    </div>
+                </a>
+                <a href="#" class="img passions">
+                    <div>
+                        Passions
+                    </div>
+                </a>
+                <a href="#" class="img space">
+                    <div>
+                        Space
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <section id="projects">
+            <div class="projects-section-title">
+                <h2>Projects</h2>
+            </div>
+            <section class="projects-section">
+                <div class="project-wrapper iss-project">
+                    <div class="cover-image"></div>
+                    <div class="project-text">
+                        <div class="project-title-text">
+                            Live ISS Tracker
+                        </div>
+                        <div class="project-title-comment">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, neque.
+                        </div>
+                        <div class="button">
+                            <a href="#" class="button-link">
+                                Launch
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-wrapper docking-project">
+                    <div class="docking-cover-image cover-image">
+                        
+                    </div>
+                    <div class="project-text">
+                        <div class="project-title-text">
+                            Orbit Rendezvous
+                        </div>
+                        <div class="project-title-comment">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, neque.
+                        </div>
+                        <div class="button">
+                            <a href="#" class="button-link">
+                                Coming Soon!
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-wrapper iss-project">
+                    <div class="cover-image">
+                        
+                    </div>
+                    <div class="project-text">
+                        <div class="project-title-text">
+                            Live ISS Tracker
+                        </div>
+                        <div class="project-title-comment">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, neque.
+                        </div>
+                        <div class="button">
+                            <a href="#" class="button-link">
+                                Coming Soon!
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            <section class="more-projects">
+                <div class="see-more-wrapper">
+                    <button type="button" class="projects-collapsible">
+                        See More!
+                    </button>
+                </div>
+                <!-- add collapsable extra content
+                <div class="project-wrapper iss-project">
+                    <div class="cover-image"></div>
+                    <div class="project-text">
+                        <div class="project-title-text">
+                            Live ISS Tracker
+                        </div>
+                        <div class="project-title-comment">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, neque.
+                        </div>
+                        <div class="button">
+                            <a href="#" class="button-link">
+                                Launch
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            -->
+            </section>
         </section>
 
-        <aside id="sidebar">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Asperiores ipsa quisquam accusamus veritatis. Voluptas, 
-                eligendi! Fuga reprehenderit quis assumenda architecto, 
-                molestiae minima atque asperiores quos libero esse neque 
-                vero magni.
-            </p>
-        </aside>
+        <section id="experience">
+            <div class="experience-section-title">
+                <h2>Experience</h2>
+            </div>
+            <div class="experiences">
+                <div class="ball-aerospace exp-wrapper">
+                    <div class="job-logo"></div>
+                    <div class="vert-bar"></div>
+                    <div class="job-description">
+                        <div class="header-container">
+                            <div class="job-header">
+                                <div class="company">
+                                    Ball Aerospace 
+                                </div>
+                                <div class="position">
+                                    Associate Engineer | Simulations 
+                                </div>
+                            </div>
+                            <div class="dates">
+                                06.2020 - Current
+                            </div>
+                        </div>
+                        <p class="responsibilities">
+                            I did some things Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Voluptates natus iure dolores, ipsum aut distinctio labore eligendi 
+                            minima obcaecati expedita, totam quam reprehenderit modi qui harum 
+                            aliquid alias velit voluptatum.
+                        </p>
+                    </div>
+                </div>
+                <div class="OSR exp-wrapper">
+                    <div class="job-logo"></div>
+                    <div class="vert-bar"></div>
+                    <div class="job-description">
+                        <div class="header-container">
+                            <div class="job-header">
+                                <div class="company">
+                                    Odyssey Space Research 
+                                </div>
+                                <div class="position">
+                                    Software Engineer Intern | Testing 
+                                </div>
+                            </div>
+                            <div class="dates">
+                                06.2019 - 08.2019
+                            </div>
+                        </div>
+                        <p class="responsibilities">
+                            Worked on a simulation team to test SpaceX ground software
+                            Wrote ground software test-cases using Python class-based structure and post-processed 
+                            Expanded FSW testcase architecture to ground software within virtual environment structure
+                            Troubleshoot SpaceX ground software including server-client communication and document 
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="TREL exp-wrapper">
+                    <div class="job-logo"></div>
+                    <div class="vert-bar"></div>
+                    <div class="job-description">
+                        <div class="header-container">
+                            <div class="job-header">
+                                <div class="company">
+                                    Texas Rocket Engineering Lab 
+                                </div>
+                                <div class="position">
+                                    Project Manager | Guidance Navigation and Control
+                                </div>
+                            </div>
+                            <div class="dates">
+                                03.2019 - 06.2020
+                            </div>
+                        </div>
+                        <p class="responsibilities">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Possimus laborum cum tempora commodi explicabo odio molestiae 
+                            culpa officia, nam ullam error impedit aut accusamus iusto blanditiis, 
+                            vitae magni eveniet facere?
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="ARL exp-wrapper">
+                    <div class="job-logo"></div>
+                    <div class="vert-bar"></div>
+                    <div class="job-description">
+                        <div class="header-container">
+                            <div class="job-header">
+                                <div class="company">
+                                    Applied Research Laoratories 
+                                </div>
+                                <div class="position">
+                                    Software Engineer Intern | Advanced Technology Lab 
+                                </div>
+                            </div>
+                            <div class="dates">
+                                06.2018 - 08.2018
+                            </div>
+                        </div>
+                        <p class="responsibilities">
+                            I did some things
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="skills-section-title">
+                <h2>Skills</h2>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+        </section>
+
     </div>
 
     <footer id="main-footer">
-        <p>Copyright &copy 2020; My Website </p>
+            <div class="ExternalProfiles">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/andrewmalatak/" target="_blank">
+                            <i class="fa fa-linkedin-square" style="font-size:24px"></i></a></li>
+                        <li><a href="https://github.com/amalatak/" target="_blank">
+                            <i class="fa fa-github" style="font-size:24px"></i></a></li>
+                        <li><a href="https://www.facebook.com/andrew.malatak/" target="_blank">
+                            <i class="fa fa-facebook-square" style="font-size:24px"></i></a></li>
+                        <li><a href="https://www.instagram.com/amalatak/" target="_blank">
+                            <i class="fa fa-instagram" style="font-size:24px"></i></a></li>
+                    </ul>
+                </div>
+        <p>Copyright &copy 2020; Andrew Malatak </p>
     </footer>
+
+    <script source=""></script>
 
 </body>
 </html>
