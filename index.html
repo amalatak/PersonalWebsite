@@ -6,6 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Website</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/frontPage.css">
+    <link rel="stylesheet" type="text/css" href="css/Profile.css">
+    <link rel="stylesheet" type="text/css" href="css/Projects.css">
+    <link rel="stylesheet" type="text/css" href="css/Experience.css">
+    <link rel="stylesheet" type="text/css" href="css/skills.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -17,10 +24,10 @@
         <header id="main-header">
             <div class="navbar">
                 <ul>
+                    <li><a href="#about">Profile</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#experience">Experience</a></li>
-                    <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -40,10 +47,13 @@
         </div>
     </div>
 
-    <div class="main-body">
+    <div class="main-body" id="about">
         <div class="headshot-and-description">
             <div class="headshot-wrapper">
                 <img class="headshot" src="images/robot_painting_laser.jpg" alt="Paris">
+            </div>
+            <div class="intro-description-title-container">
+                About Me
             </div>
             <aside id="sidebar">
                 <p>
@@ -54,35 +64,36 @@
                     vero magni.
                 </p>
             </aside>
+            <div class="intro-description-title-container">
+                Background
+            </div>
+            <div class="some-padding"></div>
         </div>
 
-        <div class="LinkContainer">
+        <p id="testelement"></p>      
+
+        <div class="LinkContainer ">
             <div class="PageLinks">
-                <a href="#" class="img academics">
-                    <div>
-                        Education
+                <div class="BackgroundContainer">
+                    <a href="#/" value="0" class="img space">
+                        <div class="background-subject">
+                            Aerospace
+                        </div>
+                    </a>
+                    <div class="PageLinkText">
+                        <p>&bull; Testing &bull; Guinance and Navigation &bull; Attitude Dynamics &bull; Controls &bull;</p>
                     </div>
-                </a>
-                <a href="professional.html" class="img work">
-                    <div>
-                        Work
+                </div>
+                <div class="BackgroundContainer">
+                    <a href="#/" value="0" class="img software">
+                        <div class="background-subject">
+                            Software
+                        </div>
+                    </a>
+                    <div class="PageLinkText">
+                        <p>&bull; Agile Developement &bull; Simulation &bull; HITL &bull; Web Developement &bull;</p>
                     </div>
-                </a>
-                <a href="about.html" class="img about">
-                    <div>
-                        About
-                    </div>
-                </a>
-                <a href="#" class="img passions">
-                    <div>
-                        Passions
-                    </div>
-                </a>
-                <a href="#" class="img space">
-                    <div>
-                        Space
-                    </div>
-                </a>
+                </div>
             </div>
         </div>
     </div>
@@ -102,7 +113,7 @@
                         <div class="project-title-comment">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, neque.
                         </div>
-                        <div class="button">
+                        <div class="button-wrapper">
                             <a href="#" class="button-link">
                                 Launch
                             </a>
@@ -120,7 +131,7 @@
                         <div class="project-title-comment">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, neque.
                         </div>
-                        <div class="button">
+                        <div class="button-wrapper">
                             <a href="#" class="button-link">
                                 Coming Soon!
                             </a>
@@ -138,7 +149,7 @@
                         <div class="project-title-comment">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, neque.
                         </div>
-                        <div class="button">
+                        <div class="button-wrapper">
                             <a href="#" class="button-link">
                                 Coming Soon!
                             </a>
@@ -146,15 +157,14 @@
                     </div>
                 </div>
             </section>
-            
-            
-            <section class="more-projects">
-                <div class="see-more-wrapper">
-                    <button type="button" class="projects-collapsible">
-                        See More!
-                    </button>
-                </div>
-                <!-- add collapsable extra content
+        
+            <div class="see-more-wrapper">
+                <button class="collapsible see-more">
+                    See More!
+                </button>
+            </div>
+
+            <section class="more-projects" id="mas-projects">
                 <div class="project-wrapper iss-project">
                     <div class="cover-image"></div>
                     <div class="project-text">
@@ -164,15 +174,15 @@
                         <div class="project-title-comment">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, neque.
                         </div>
-                        <div class="button">
+                        <div class="button-wrapper">
                             <a href="#" class="button-link">
                                 Launch
                             </a>
                         </div>
                     </div>
                 </div>
-            -->
             </section>
+            <div class="blank-space"></div>
         </section>
 
         <section id="experience">
@@ -267,11 +277,33 @@
                                     Applied Research Laoratories 
                                 </div>
                                 <div class="position">
-                                    Software Engineer Intern | Advanced Technology Lab 
+                                    Software Engineer Intern | Full Project Lifecycle 
                                 </div>
                             </div>
                             <div class="dates">
                                 06.2018 - 08.2018
+                            </div>
+                        </div>
+                        <p class="responsibilities">
+                            I did some things
+                        </p>
+                    </div>
+                </div>
+                <div class="Guadaloop exp-wrapper">
+                    <div class="job-logo"></div>
+                    <div class="vert-bar"></div>
+                    <div class="job-description">
+                        <div class="header-container">
+                            <div class="job-header">
+                                <div class="company">
+                                    Guadaloop
+                                </div>
+                                <div class="position">
+                                    Chief Engineer | Project Development 
+                                </div>
+                            </div>
+                            <div class="dates">
+                                08.2016 - 12.2018
                             </div>
                         </div>
                         <p class="responsibilities">
@@ -288,14 +320,27 @@
             </div>
         </section>
 
-        <section id="about">
-            <h2>About</h2>
-        </section>
-
         <section id="contact">
             <h2>Contact</h2>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form action="action_page.php">
+                    
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name">
+                                             
+                        <label for="email">Email Address</label>
+                        <input type="text" id="email" name="email-address" placeholder="Email Address">
+                        
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Subject" style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Submit">
+                    
+                    </form>
+                </div> 
+            </div>
         </section>
-
     </div>
 
     <footer id="main-footer">
@@ -314,7 +359,9 @@
         <p>Copyright &copy 2020; Andrew Malatak </p>
     </footer>
 
-    <script source=""></script>
+    <script src="js/pageUtils.js"></script>
+    <script src="js/testjs.js"></script>
+    
 
 </body>
 </html>

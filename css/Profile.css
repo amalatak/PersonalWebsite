@@ -1,0 +1,214 @@
+
+/* 
+    Main Body 
+*/
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.headshot-and-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+    font-weight: 200;
+}
+
+.headshot-wrapper{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 5% 0;
+}
+
+.headshot{
+    margin-left: 0%;
+    height: auto;
+    width: 100%;
+}
+
+.intro-description-title-container {
+    font-size: 30px;
+}
+
+.some-padding {
+    margin: 0.5%;
+}
+
+#sidebar{
+    box-sizing: border-box;
+    font-size: 18px;
+    width: 60%;
+    color:#333;
+    padding: 10px;
+}
+
+/************************************************************************************* 
+    Homepage Background links 
+*************************************************************************************/
+
+.LinkContainer {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 3% 0;
+}
+
+.PageLinks {
+    display: flex;
+    box-sizing: border-box;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+
+}
+
+.BackgroundContainer {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: end;
+    align-items: flex-start;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+
+    transition:.2s all;
+    padding: 2%;
+    box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+    
+}
+
+
+.background-subject {
+    transition:.2s all;
+}
+
+.BackgroundContainer {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+    
+    margin: 0.4%;
+    
+} 
+
+.PageLinks:hover .BackgroundContainer {
+    opacity:1;
+    box-shadow:none;
+    filter: blur(1px);
+    transform: scale(.98);
+    
+}
+
+.PageLinks:hover .BackgroundContainer:hover {
+    transform: scale(1.0);
+    filter: blur(0px);
+    opacity: 1;
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+    cursor: default;
+    
+}
+
+.PageLinkText {
+    position: absolute;
+    display: flex;
+    cursor: default;
+
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    
+    height: 100%;
+    margin-bottom: 0%;
+
+    font-size: 18px;
+    overflow: hidden;
+
+    
+    color: transparent;
+    
+}
+
+.PageLinkText:hover p {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    width: 100%;
+    height: 20%;
+    transition:.4s all;
+
+    color: #ddd;
+    background-color: rgba(50, 50, 50, 1);
+    margin: 0%;
+}
+
+
+
+.academics{
+    background: url('../images/UT_image.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.work{
+    background: url('https://images.unsplash.com/photo-1528696892704-5e1122852276?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80') no-repeat center center;
+    background-size: cover;
+}
+
+.software{
+    background: url("../images/computerChip.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.passions {
+    background: url('https://images.unsplash.com/photo-1563305145-b64e0c2184aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80') no-repeat center center;
+    background-size: cover;
+}
+
+.space {
+    background: url('../images/U49nFhh-space-shuttle-desktop-wallpaper.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+
+@media screen and (min-width: 800px) {
+    .LinkContainer{
+      height: 500px; 
+    }
+    
+    .img{
+      height: 100%;  
+      width: 100%;
+    }
+
+
+    .PageLinks{
+        flex-wrap: wrap; 
+        overflow: visible;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .PageLinks{
+      flex-wrap: wrap; 
+    }
+    
+}
