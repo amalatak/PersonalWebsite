@@ -86,12 +86,12 @@ Projects
 
 .button-wrapper {
     display: flex;
-    position: absolute;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-top: 15%;
+    
 }
 
 .button-link {
@@ -124,6 +124,7 @@ Projects
     text-align: center;
     width: 100%;
     margin-bottom: 2%;
+
 }
 
 .collapsible {
@@ -135,11 +136,13 @@ Projects
     background-color: #333;
     border: 2px solid #ddd;
     color: #ddd;
+    height: 100%;
     
     transition: .25s;
 
     padding: 1em 2em;
     font-size: 16px;
+
 }
   
 .active {
@@ -148,8 +151,8 @@ Projects
 }
 
 .collapsible:hover { /* , .button-link:focus -- maybe leave this */
-    box-shadow: inset 0 -3.25em 0 0 #ddd;
-    border-color: #000;
+    box-shadow: inset 0 -3.5em 0 0 #ddd;
+    border-color: #333;
     color: #555;
 }
   
